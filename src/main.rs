@@ -38,7 +38,6 @@ fn main() {
 
     for handler in handlers {
         let results = handler.join().unwrap();
-
         println!("{}", results);
     }
 }
